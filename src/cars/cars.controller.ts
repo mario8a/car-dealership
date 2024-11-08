@@ -9,8 +9,7 @@ import {
   Patch,
   Post,
 } from '@nestjs/common';
-import { CreateCarDto } from './dto/create-car.dto';
-import { UpdateCarDto } from './dto/update-car.dto';
+import { CreateCarDto, UpdateCarDto } from './dto/index';
 
 // Un controlador va escuchar las solicitudes del cliente (postman) y va emitir una respuesa
 @Controller('cars')
